@@ -1,5 +1,9 @@
 # RaspberryPi-MQTT-GoogleAssistant-LED
-
+This program uses a MQTT server hosted on a Raspberry Pi  to take commands from a NodeRED server, also hosted on the Pi to change LED color, status and animations  
+The NodeRED server recieves commands via the dashboard or from a Google Assisntant 
+  
+In the future, I will create my own webpage to send commands to the Pi via the MQTT server  
+  
 This program requires the use of a few libraries that need to be installed before using on your own Raspberry Pi.
 
 ## Install instructions
