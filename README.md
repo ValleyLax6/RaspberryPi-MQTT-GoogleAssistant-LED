@@ -1,4 +1,4 @@
-# RaspberryPi-MQTT-LED
+# RaspberryPi-MQTT-GoogleAssistant-LED
 
 This program requires the use of a few libraries that need to be installed before using on your own Raspberry Pi.
 
