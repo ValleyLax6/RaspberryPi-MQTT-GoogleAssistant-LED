@@ -10,7 +10,7 @@ sudo apt-get update
 sudo apt-get install pigpio
 pigpiod -v
 ```
-If the version installed isnt the current version, install the lastest version.
+If the version installed isnt the current version, install the lastest version.  
 First build-essentials needs to be installed if not already
 ```
 sudo apt-get install build-essential
@@ -53,20 +53,20 @@ Below are lines with the following content (with Ctrl + W you can search):
 # Enable audio (loads snd_bcm2835)
 dtparam=audio=on
 ```
-This bottom line is commented out with a hashtag # at the beginning of the line: #dtparam=audio=on
+This bottom line is commented out with a hashtag # at the beginning of the line: #dtparam=audio=on  
 Restart the system
 ```
 sudo reboot
 ```
 #### Install
-Now we can download the library.
+Now you can download the library.
 ```
 git clone https://github.com/jgarff/rpi_ws281x
 cd rpi_ws281x/
 sudo scons
 cd python
 ```
-Here we carry out the installation:
+Now you carry out the installation:
 ```
 sudo python setup.py build
 sudo python setup.py install
